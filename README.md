@@ -10,7 +10,7 @@
 - MXRoute Mail API (DirectAdmin API)
 - SMB
 - AFP
-- NGINX
+- NGINX (Reverse Proxy)
 
 ## 라우트 정보
 - GET /
@@ -21,14 +21,17 @@
     - SMB 계정 생성
     - MXRoute Mail 사용자 자동 추가
 - POST /loginCheck
-    - Helper 서버에서 사용자 인증 API
+    - Helper 서버에서 사용자 인증 요청용 API
     - Helper 서버에서 사용자 인증 요청 시, UNIX 계정의 존재 여부를 확인하여 인증 결과를 반환.
     - /etc/shadow 파일을 읽어와서 인증 처리.
+
+## 실행 화면
+- NAS 사용자 추가 페이지
+![NAS 사용자 추가 페이지](https://user-images.githubusercontent.com/30901178/222890273-194bfde2-8ca2-4c21-b972-72a6d42de615.png)
+- NAS 사용자 등록 결과 페이지
+![NAS 사용자 등록 결과 페이지](https://user-images.githubusercontent.com/30901178/222890305-ff4eb233-0a31-48ec-b486-c6921b474bb3.png)
 
 ## 주의사항
 - key 파일은 git에 올리지 않음.
     - key 파일은 /etc/goweb/keys 디렉토리에 위치.
     - MXRouteURL, MXRouteID, MXRoutePW 정의
-
-## 실행 화면
-- NAS 사용자 추가 페이지
