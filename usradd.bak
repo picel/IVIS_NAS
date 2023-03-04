@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo useradd -s /bin/bash $1
+echo $1":"$2 | sudo chpasswd
+sudo usermod -a -G smbusr $1
+(echo $2; echo $2) | sudo smbpasswd -s -a $1

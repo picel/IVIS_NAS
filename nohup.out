@@ -1,0 +1,1415 @@
+sudo useradd sbkim Kyle2613@
+curl [-s -k -X POST -u ivisdevx:8nqQ^|pX$$S! -d domain=ivis.dev&user=sbkim&passwd=Kyle2613@&passwd2=Kyle2613@&quota=0&limit=7200&create=Create&action=create& https://redbull.mxrouting.net:2222/CMD_API_POP]
+cur out :error=0&text=Email%20account%20created&details=sbkim
+scoket body: 
+Success: OK
+sudo useradd picel Kyle2613@
+curl [-s -k -X POST -u ivisdevx:8nqQ^|pX$$S! -d create=Create&action=create&domain=ivis.dev&user=picel&passwd=Kyle2613@&passwd2=Kyle2613@&quota=0&limit=7200& https://redbull.mxrouting.net:2222/CMD_API_POP]
+cur out :error=1&text=Unable%20to%20create%20email%20account&details=That%20user%20already%20exists%3Cbr%3E%0A
+scoket body: 
+Success: OK
+sudo useradd minjsis99 S@mdasoo10
+curl [-s -k -X POST -u ivisdevx:8nqQ^|pX$$S! -d quota=0&limit=7200&create=Create&action=create&domain=ivis.dev&user=minjsis99&passwd=S@mdasoo10&passwd2=S@mdasoo10& https://redbull.mxrouting.net:2222/CMD_API_POP]
+cur out :error=0&text=Email%20account%20created&details=minjsis%39%39
+scoket body: 
+Success: OK
+2022/11/27 06:38:42 http: panic serving 127.0.0.1:41156: runtime error: index out of range [2] with length 1
+goroutine 103 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x667100, 0xc0002a8d98})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6eff88, 0xc0003269a0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:27 +0x469
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6eff88?, 0xc0003269a0?}, 0xc0003680a0?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6eff88, 0xc0003269a0}, 0xc000314b00)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6ef448?}, {0x6eff88, 0xc0003269a0}, 0xc000314b00)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000104fa0, {0x6f01b0, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2022/11/27 06:38:50 http: panic serving 127.0.0.1:60644: runtime error: index out of range [2] with length 1
+goroutine 74 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x667100, 0xc0000d83d8})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6eff88, 0xc0000dc9a0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:27 +0x469
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6eff88?, 0xc0000dc9a0?}, 0xc000412050?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6eff88, 0xc0000dc9a0}, 0xc0000cea00)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6ef448?}, {0x6eff88, 0xc0000dc9a0}, 0xc0000cea00)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000b8aa0, {0x6f01b0, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2022/11/27 06:39:15 http: panic serving 127.0.0.1:41536: runtime error: index out of range [2] with length 1
+goroutine 78 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x667100, 0xc0000d8498})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6eff88, 0xc0000dca80}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:27 +0x469
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6eff88?, 0xc0000dca80?}, 0xc000412070?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6eff88, 0xc0000dca80}, 0xc0000ceb00)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6ef448?}, {0x6eff88, 0xc0000dca80}, 0xc0000ceb00)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000b8b40, {0x6f01b0, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2022/11/27 06:39:28 http: panic serving 127.0.0.1:32934: runtime error: index out of range [2] with length 1
+goroutine 166 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x667100, 0xc0000d8570})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6eff88, 0xc00014c620}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:27 +0x469
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6eff88?, 0xc00014c620?}, 0xc00025e050?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6eff88, 0xc00014c620}, 0xc000168900)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6ef448?}, {0x6eff88, 0xc00014c620}, 0xc000168900)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000b8c80, {0x6f01b0, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2022/11/27 06:39:53 http: panic serving 127.0.0.1:56636: runtime error: index out of range [2] with length 1
+goroutine 107 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x667100, 0xc000316618})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6eff88, 0xc00014c700}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:27 +0x469
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6eff88?, 0xc00014c700?}, 0xc00025e0c0?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6eff88, 0xc00014c700}, 0xc000168a00)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6ef448?}, {0x6eff88, 0xc00014c700}, 0xc000168a00)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000105040, {0x6f01b0, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2022/11/27 06:41:02 http: panic serving 127.0.0.1:58284: runtime error: index out of range [2] with length 1
+goroutine 178 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x667100, 0xc0000d8648})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6eff88, 0xc000326a80}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:27 +0x469
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6eff88?, 0xc000326a80?}, 0xc000368120?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6eff88, 0xc000326a80}, 0xc000314c00)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6ef448?}, {0x6eff88, 0xc000326a80}, 0xc000314c00)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc00030aa00, {0x6f01b0, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2022/11/27 06:41:17 http: panic serving 127.0.0.1:52544: runtime error: index out of range [2] with length 1
+goroutine 182 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x667100, 0xc00022a078})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6eff88, 0xc000326b60}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:27 +0x469
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6eff88?, 0xc000326b60?}, 0xc000368150?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6eff88, 0xc000326b60}, 0xc000314d00)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6ef448?}, {0x6eff88, 0xc000326b60}, 0xc000314d00)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc00030aaa0, {0x6f01b0, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2022/11/27 06:43:17 http: panic serving 127.0.0.1:41292: runtime error: index out of range [2] with length 1
+goroutine 186 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x667100, 0xc0003160a8})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6eff88, 0xc000326000}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:27 +0x469
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6eff88?, 0xc000326000?}, 0xc0004b0040?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6eff88, 0xc000326000}, 0xc000168000)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6ef448?}, {0x6eff88, 0xc000326000}, 0xc000168000)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000104280, {0x6f01b0, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2022/11/27 06:43:24 http: panic serving 127.0.0.1:41306: runtime error: index out of range [2] with length 1
+goroutine 113 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x667100, 0xc000018108})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6eff88, 0xc00014c1c0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:27 +0x469
+net/http.HandlerFunc.ServeHTTP(0x635d60?, {0x6eff88?, 0xc00014c1c0?}, 0xc000368090?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6eff88, 0xc00014c1c0}, 0xc0002c2100)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6ef448?}, {0x6eff88, 0xc00014c1c0}, 0xc0002c2100)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc00030a000, {0x6f01b0, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2022/11/27 06:59:34 http: panic serving 127.0.0.1:46384: runtime error: index out of range [2] with length 1
+goroutine 307 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x667100, 0xc000018108})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6eff88, 0xc00014c0e0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:27 +0x469
+net/http.HandlerFunc.ServeHTTP(0x635d60?, {0x6eff88?, 0xc00014c0e0?}, 0xc0000b4000?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6eff88, 0xc00014c0e0}, 0xc000168000)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6ef448?}, {0x6eff88, 0xc00014c0e0}, 0xc000168000)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000104280, {0x6f01b0, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2022/11/27 07:08:48 http: panic serving 127.0.0.1:37556: runtime error: index out of range [2] with length 0
+goroutine 325 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x667100, 0xc000108018})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6eff88, 0xc00014c2a0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:27 +0x469
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6eff88?, 0xc00014c2a0?}, 0xc00010c130?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6eff88, 0xc00014c2a0}, 0xc000168400)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6ef448?}, {0x6eff88, 0xc00014c2a0}, 0xc000168400)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000104960, {0x6f01b0, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2022/11/27 07:30:28 http: panic serving 127.0.0.1:55718: runtime error: index out of range [2] with length 0
+goroutine 313 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x667100, 0xc00022a588})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6eff88, 0xc00014c1c0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:27 +0x469
+net/http.HandlerFunc.ServeHTTP(0x635d60?, {0x6eff88?, 0xc00014c1c0?}, 0xc0000ae0a0?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6eff88, 0xc00014c1c0}, 0xc000168300)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6ef448?}, {0x6eff88, 0xc00014c1c0}, 0xc000168300)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc00013c000, {0x6f01b0, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2022/11/27 07:31:48 http: panic serving 127.0.0.1:48852: runtime error: index out of range [2] with length 1
+goroutine 314 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x667100, 0xc000018450})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6eff88, 0xc00015e000}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:27 +0x469
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6eff88?, 0xc00015e000?}, 0xc000154050?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6eff88, 0xc00015e000}, 0xc000150000)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6ef448?}, {0x6eff88, 0xc00015e000}, 0xc000150000)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc00013c0a0, {0x6f01b0, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2022/11/27 07:31:56 http: panic serving 127.0.0.1:38324: runtime error: index out of range [2] with length 1
+goroutine 270 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x667100, 0xc00022a078})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6eff88, 0xc00025e000}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:27 +0x469
+net/http.HandlerFunc.ServeHTTP(0xc000046a88?, {0x6eff88?, 0xc00025e000?}, 0xc000256020?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6eff88, 0xc00025e000}, 0xc00022e000)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6ef448?}, {0x6eff88, 0xc00025e000}, 0xc00022e000)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0001620a0, {0x6f01b0, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+sudo useradd fellix Kyle2613@
+curl [-s -k -X POST -u ivisdevx:8nqQ^|pX$$S! -d user=fellix&passwd=Kyle2613@&passwd2=Kyle2613@&quota=0&limit=7200&create=Create&action=create&domain=ivis.dev& https://redbull.mxrouting.net:2222/CMD_API_POP]
+cur out :error=0&text=Email%20account%20created&details=fellix
+scoket body: 
+Success: OK
+sudo useradd eleven1000 Eleven10
+curl [-s -k -X POST -u ivisdevx:8nqQ^|pX$$S! -d quota=0&limit=7200&create=Create&action=create&domain=ivis.dev&user=eleven1000&passwd=Eleven10&passwd2=Eleven10& https://redbull.mxrouting.net:2222/CMD_API_POP]
+cur out :error=0&text=Email%20account%20created&details=eleven%31%30%30%30
+scoket body: 
+Success: OK
+sudo useradd euni62 Chain830!
+curl [-s -k -X POST -u ivisdevx:8nqQ^|pX$$S! -d create=Create&action=create&domain=ivis.dev&user=euni62&passwd=Chain830!&passwd2=Chain830!&quota=0&limit=7200& https://redbull.mxrouting.net:2222/CMD_API_POP]
+cur out :error=0&text=Email%20account%20created&details=euni%36%32
+scoket body: 
+Success: OK
+2022/12/11 11:57:49 http: panic serving 127.0.0.1:43998: runtime error: index out of range [2] with length 0
+goroutine 166 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x667100, 0xc0001aabb8})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6eff88, 0xc0001b0b60}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:27 +0x469
+net/http.HandlerFunc.ServeHTTP(0x2?, {0x6eff88?, 0xc0001b0b60?}, 0xc0001a6130?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6eff88, 0xc0001b0b60}, 0xc0001a0d00)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6ef448?}, {0x6eff88, 0xc0001b0b60}, 0xc0001a0d00)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc00019a820, {0x6f01b0, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2022/12/11 11:57:51 http: panic serving 127.0.0.1:44000: runtime error: index out of range [2] with length 1
+goroutine 170 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x667100, 0xc00037c8b8})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6eff88, 0xc0001b0c40}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:27 +0x469
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6eff88?, 0xc0001b0c40?}, 0xc0001a61f0?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6eff88, 0xc0001b0c40}, 0xc0001a0e00)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6ef448?}, {0x6eff88, 0xc0001b0c40}, 0xc0001a0e00)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc00019a8c0, {0x6f01b0, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+sudo useradd test Kyle2613@
+curl [-s -k -X POST -u ivisdevx:8nqQ^|pX$$S! -d domain=ivis.dev&user=test&passwd=Kyle2613@&passwd2=Kyle2613@&quota=0&limit=7200&create=Create&action=create& https://redbull.mxrouting.net:2222/CMD_API_POP]
+cur out :error=0&text=Email%20account%20created&details=test
+scoket body: 
+Success: OK
+sudo useradd test2 Kyle2613@
+curl [-s -k -X POST -u ivisdevx:8nqQ^|pX$$S! -d quota=0&limit=7200&create=Create&action=create&domain=ivis.dev&user=test2&passwd=Kyle2613@&passwd2=Kyle2613@& https://redbull.mxrouting.net:2222/CMD_API_POP]
+cur out :error=0&text=Email%20account%20created&details=test%32
+scoket body: 
+Success: OK
+sudo useradd euni62 Chained830!
+curl [-s -k -X POST -u ivisdevx:8nqQ^|pX$$S! -d user=euni62&passwd=Chained830!&passwd2=Chained830!&quota=0&limit=7200&create=Create&action=create&domain=ivis.dev& https://redbull.mxrouting.net:2222/CMD_API_POP]
+cur out :error=0&text=Email%20account%20created&details=euni%36%32
+scoket body: 
+Success: OK
+2023/02/08 08:24:39 http: panic serving 127.0.0.1:58778: runtime error: index out of range [2] with length 0
+goroutine 27 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x667100, 0xc0001d8648})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6eff88, 0xc0001062a0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:33 +0x4e9
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6eff88?, 0xc0001062a0?}, 0xc0000ea350?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6eff88, 0xc0001062a0}, 0xc000122400)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6ef448?}, {0x6eff88, 0xc0001062a0}, 0xc000122400)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000b0be0, {0x6f01b0, 0xc00009cde0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 08:24:50 http: panic serving 127.0.0.1:60180: runtime error: index out of range [2] with length 0
+goroutine 31 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x667100, 0xc000018090})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6eff88, 0xc000106380}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:33 +0x4e9
+net/http.HandlerFunc.ServeHTTP(0xaa?, {0x6eff88?, 0xc000106380?}, 0xc0000ea400?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6eff88, 0xc000106380}, 0xc000122500)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6ef448?}, {0x6eff88, 0xc000106380}, 0xc000122500)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000b0c80, {0x6f01b0, 0xc00009cde0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 08:26:54 http: panic serving 127.0.0.1:51622: runtime error: index out of range [2] with length 0
+goroutine 6 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc0000181f8})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f1108, 0xc00014c0e0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:38 +0x729
+net/http.HandlerFunc.ServeHTTP(0x636d60?, {0x6f1108?, 0xc00014c0e0?}, 0xc0001302d0?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f1108, 0xc00014c0e0}, 0xc000168000)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f05c8?}, {0x6f1108, 0xc00014c0e0}, 0xc000168000)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000104a00, {0x6f1330, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 08:26:58 http: panic serving 127.0.0.1:51634: runtime error: index out of range [2] with length 0
+goroutine 10 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc000018300})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f1108, 0xc00014c1c0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:38 +0x729
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6f1108?, 0xc00014c1c0?}, 0xc0001303b0?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f1108, 0xc00014c1c0}, 0xc000168100)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f05c8?}, {0x6f1108, 0xc00014c1c0}, 0xc000168100)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000104aa0, {0x6f1330, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 08:27:06 http: panic serving 127.0.0.1:55180: runtime error: index out of range [2] with length 0
+goroutine 14 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc0000183f0})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f1108, 0xc00014c2a0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:38 +0x729
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6f1108?, 0xc00014c2a0?}, 0xc000130430?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f1108, 0xc00014c2a0}, 0xc000168200)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f05c8?}, {0x6f1108, 0xc00014c2a0}, 0xc000168200)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000104b40, {0x6f1330, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 08:31:35 http: panic serving 127.0.0.1:34964: runtime error: index out of range [2] with length 0
+goroutine 19 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc00014c150})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f1108, 0xc00017e0e0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:38 +0x729
+net/http.HandlerFunc.ServeHTTP(0x636d60?, {0x6f1108?, 0xc00017e0e0?}, 0xc000162330?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f1108, 0xc00017e0e0}, 0xc00019a000)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f05c8?}, {0x6f1108, 0xc00017e0e0}, 0xc00019a000)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc00012a960, {0x6f1330, 0xc000116de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 08:31:51 http: panic serving 127.0.0.1:46424: runtime error: index out of range [2] with length 0
+goroutine 23 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc0000a8000})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f1108, 0xc00017e1c0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:38 +0x729
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6f1108?, 0xc00017e1c0?}, 0xc000162380?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f1108, 0xc00017e1c0}, 0xc00019a100)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f05c8?}, {0x6f1108, 0xc00017e1c0}, 0xc00019a100)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc00012aa00, {0x6f1330, 0xc000116de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 08:31:54 http: panic serving 127.0.0.1:49800: runtime error: index out of range [2] with length 0
+goroutine 34 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc00014c258})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f1108, 0xc0000de000}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:38 +0x729
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6f1108?, 0xc0000de000?}, 0xc0000d8030?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f1108, 0xc0000de000}, 0xc0000d2000)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f05c8?}, {0x6f1108, 0xc0000de000}, 0xc0000d2000)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000ce000, {0x6f1330, 0xc000116de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 08:33:13 http: panic serving 127.0.0.1:35348: runtime error: index out of range [2] with length 0
+goroutine 19 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc0000d4150})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fc8, 0xc0001060e0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:36 +0x5a9
+net/http.HandlerFunc.ServeHTTP(0x636d60?, {0x6f0fc8?, 0xc0001060e0?}, 0xc0000ea300?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fc8, 0xc0001060e0}, 0xc000122000)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f0488?}, {0x6f0fc8, 0xc0001060e0}, 0xc000122000)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000b0960, {0x6f11f0, 0xc00009cde0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 08:41:10 http: panic serving 127.0.0.1:37380: runtime error: index out of range [2] with length 0
+goroutine 23 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc0000d4240})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fc8, 0xc0001061c0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:36 +0x5a9
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6f0fc8?, 0xc0001061c0?}, 0xc0000ea3e0?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fc8, 0xc0001061c0}, 0xc000122100)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f0488?}, {0x6f0fc8, 0xc0001061c0}, 0xc000122100)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000b0a00, {0x6f11f0, 0xc00009cde0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 08:41:36 http: panic serving 127.0.0.1:51726: runtime error: index out of range [2] with length 0
+goroutine 27 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc0000d4330})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fc8, 0xc0001062a0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:36 +0x5a9
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6f0fc8?, 0xc0001062a0?}, 0xc0000ea4b0?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fc8, 0xc0001062a0}, 0xc000122200)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f0488?}, {0x6f0fc8, 0xc0001062a0}, 0xc000122200)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000b0aa0, {0x6f11f0, 0xc00009cde0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 08:44:58 http: panic serving 127.0.0.1:40966: runtime error: index out of range [2] with length 0
+goroutine 31 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc0000d4420})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fc8, 0xc000106380}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:36 +0x5a9
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6f0fc8?, 0xc000106380?}, 0xc0000ea530?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fc8, 0xc000106380}, 0xc000122300)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f0488?}, {0x6f0fc8, 0xc000106380}, 0xc000122300)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000b0b40, {0x6f11f0, 0xc00009cde0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 08:45:47 http: panic serving 127.0.0.1:46664: runtime error: index out of range [2] with length 0
+goroutine 35 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc0000d4510})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fc8, 0xc000106460}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:36 +0x5a9
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6f0fc8?, 0xc000106460?}, 0xc0000ea5c0?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fc8, 0xc000106460}, 0xc000122400)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f0488?}, {0x6f0fc8, 0xc000106460}, 0xc000122400)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000b0be0, {0x6f11f0, 0xc00009cde0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 08:47:44 http: panic serving 127.0.0.1:36960: runtime error: index out of range [2] with length 0
+goroutine 39 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc0000d4600})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fc8, 0xc000106540}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:36 +0x5a9
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6f0fc8?, 0xc000106540?}, 0xc0000ea650?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fc8, 0xc000106540}, 0xc000122600)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f0488?}, {0x6f0fc8, 0xc000106540}, 0xc000122600)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000b0c80, {0x6f11f0, 0xc00009cde0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 08:51:59 http: panic serving 127.0.0.1:34860: runtime error: index out of range [2] with length 0
+goroutine 6 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc0000181e0})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f1108, 0xc00014c0e0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:38 +0x729
+net/http.HandlerFunc.ServeHTTP(0x636d60?, {0x6f1108?, 0xc00014c0e0?}, 0xc000130340?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f1108, 0xc00014c0e0}, 0xc000168000)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f05c8?}, {0x6f1108, 0xc00014c0e0}, 0xc000168000)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000104a00, {0x6f1330, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 08:52:05 http: panic serving 127.0.0.1:41294: runtime error: index out of range [2] with length 1
+goroutine 10 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc0000c6000})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f1108, 0xc00014c1c0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:38 +0x729
+net/http.HandlerFunc.ServeHTTP(0x7f5e91b3d688?, {0x6f1108?, 0xc00014c1c0?}, 0x40e685?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f1108, 0xc00014c1c0}, 0xc000168100)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc000077290?}, {0x6f1108, 0xc00014c1c0}, 0xc000168100)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000104aa0, {0x6f1330, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 08:52:08 http: panic serving 127.0.0.1:41312: runtime error: index out of range [2] with length 1
+goroutine 16 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc000018360})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f1108, 0xc00014c380}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:38 +0x729
+net/http.HandlerFunc.ServeHTTP(0x7f5e91b3d688?, {0x6f1108?, 0xc00014c380?}, 0x40e685?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f1108, 0xc00014c380}, 0xc000168300)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc0000776b0?}, {0x6f1108, 0xc00014c380}, 0xc000168300)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000104be0, {0x6f1330, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 08:52:12 http: panic serving 127.0.0.1:47832: runtime error: index out of range [2] with length 1
+goroutine 21 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc000018420})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f1108, 0xc00014c460}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:38 +0x729
+net/http.HandlerFunc.ServeHTTP(0x7f5e91b3d688?, {0x6f1108?, 0xc00014c460?}, 0x40e685?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f1108, 0xc00014c460}, 0xc000168400)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc000077980?}, {0x6f1108, 0xc00014c460}, 0xc000168400)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000104c80, {0x6f1330, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 08:56:10 http: panic serving 127.0.0.1:52760: runtime error: index out of range [2] with length 1
+goroutine 52 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc0001be1b0})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f1108, 0xc00014c7e0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:38 +0x729
+net/http.HandlerFunc.ServeHTTP(0x7f5e91b3d688?, {0x6f1108?, 0xc00014c7e0?}, 0x40e685?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f1108, 0xc00014c7e0}, 0xc000168b00)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc00041ecc0?}, {0x6f1108, 0xc00014c7e0}, 0xc000168b00)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000104f00, {0x6f1330, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 08:57:48 http: panic serving 127.0.0.1:47304: runtime error: index out of range [2] with length 1
+goroutine 19 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc0000d4138})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fc8, 0xc0001060e0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:36 +0x5a9
+net/http.HandlerFunc.ServeHTTP(0x7f64f1bc9df8?, {0x6f0fc8?, 0xc0001060e0?}, 0x40e685?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fc8, 0xc0001060e0}, 0xc000122000)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc00009ced0?}, {0x6f0fc8, 0xc0001060e0}, 0xc000122000)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000b0960, {0x6f11f0, 0xc00009cde0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 08:59:19 http: panic serving 127.0.0.1:43906: runtime error: index out of range [2] with length 0
+goroutine 23 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc0000d4240})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fc8, 0xc0001061c0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:36 +0x5a9
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6f0fc8?, 0xc0001061c0?}, 0xc0000ea320?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fc8, 0xc0001061c0}, 0xc000122100)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f0488?}, {0x6f0fc8, 0xc0001061c0}, 0xc000122100)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000b0a00, {0x6f11f0, 0xc00009cde0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 08:59:21 http: panic serving 127.0.0.1:40798: runtime error: index out of range [2] with length 0
+goroutine 27 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc0000d4330})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fc8, 0xc0001062a0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:36 +0x5a9
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6f0fc8?, 0xc0001062a0?}, 0xc0000ea3f0?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fc8, 0xc0001062a0}, 0xc000122200)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f0488?}, {0x6f0fc8, 0xc0001062a0}, 0xc000122200)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000b0aa0, {0x6f11f0, 0xc00009cde0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 09:06:07 http: panic serving 127.0.0.1:54752: runtime error: index out of range [2] with length 1
+goroutine 31 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc0000d4408})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fc8, 0xc000106380}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:36 +0x5a9
+net/http.HandlerFunc.ServeHTTP(0x7f64f1bc9df8?, {0x6f0fc8?, 0xc000106380?}, 0x40e685?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fc8, 0xc000106380}, 0xc000122300)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc00009d8f0?}, {0x6f0fc8, 0xc000106380}, 0xc000122300)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000b0b40, {0x6f11f0, 0xc00009cde0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 09:06:42 http: panic serving 127.0.0.1:46462: runtime error: index out of range [2] with length 1
+goroutine 52 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc00024c108})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fc8, 0xc0002500e0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:36 +0x5a9
+net/http.HandlerFunc.ServeHTTP(0x7f64f1bc9df8?, {0x6f0fc8?, 0xc0002500e0?}, 0x40e685?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fc8, 0xc0002500e0}, 0xc000246100)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc00022c330?}, {0x6f0fc8, 0xc0002500e0}, 0xc000246100)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0002440a0, {0x6f11f0, 0xc00009cde0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 09:06:51 http: panic serving 127.0.0.1:46470: runtime error: index out of range [2] with length 1
+goroutine 56 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc00024c1e0})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fc8, 0xc0002501c0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:36 +0x5a9
+net/http.HandlerFunc.ServeHTTP(0x7f64f1bc9df8?, {0x6f0fc8?, 0xc0002501c0?}, 0x40e685?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fc8, 0xc0002501c0}, 0xc000246200)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc00022c630?}, {0x6f0fc8, 0xc0002501c0}, 0xc000246200)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000244140, {0x6f11f0, 0xc00009cde0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 09:06:53 http: panic serving 127.0.0.1:47478: runtime error: index out of range [2] with length 1
+goroutine 60 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc00024c2b8})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fc8, 0xc0002502a0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:36 +0x5a9
+net/http.HandlerFunc.ServeHTTP(0x7f64f1bc9df8?, {0x6f0fc8?, 0xc0002502a0?}, 0x40e685?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fc8, 0xc0002502a0}, 0xc000246300)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc00022c930?}, {0x6f0fc8, 0xc0002502a0}, 0xc000246300)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0002441e0, {0x6f11f0, 0xc00009cde0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 09:06:59 http: panic serving 127.0.0.1:47482: runtime error: index out of range [2] with length 0
+goroutine 64 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc00024c3f0})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fc8, 0xc000250380}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:36 +0x5a9
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6f0fc8?, 0xc000250380?}, 0xc000274050?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fc8, 0xc000250380}, 0xc000246400)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f0488?}, {0x6f0fc8, 0xc000250380}, 0xc000246400)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000244280, {0x6f11f0, 0xc00009cde0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 09:07:57 http: panic serving 127.0.0.1:38798: runtime error: index out of range [2] with length 0
+goroutine 68 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc00024c528})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fc8, 0xc000250460}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:36 +0x5a9
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6f0fc8?, 0xc000250460?}, 0xc000274600?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fc8, 0xc000250460}, 0xc000246500)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f0488?}, {0x6f0fc8, 0xc000250460}, 0xc000246500)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000244320, {0x6f11f0, 0xc00009cde0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 09:08:03 http: panic serving 127.0.0.1:35066: runtime error: index out of range [2] with length 0
+goroutine 72 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc00024c660})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fc8, 0xc000250540}, 0x415185?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:36 +0x5a9
+net/http.HandlerFunc.ServeHTTP(0x200?, {0x6f0fc8?, 0xc000250540?}, 0xc000046aa8?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fc8, 0xc000250540}, 0xc000246600)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f0488?}, {0x6f0fc8, 0xc000250540}, 0xc000246600)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0002443c0, {0x6f11f0, 0xc00009cde0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 09:08:23 http: panic serving 127.0.0.1:37790: runtime error: index out of range [2] with length 0
+goroutine 76 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc00024c798})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fc8, 0xc000250620}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:36 +0x5a9
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6f0fc8?, 0xc000250620?}, 0xc000275130?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fc8, 0xc000250620}, 0xc000246700)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f0488?}, {0x6f0fc8, 0xc000250620}, 0xc000246700)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000244460, {0x6f11f0, 0xc00009cde0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 09:10:41 http: panic serving 127.0.0.1:56136: runtime error: index out of range [2] with length 0
+goroutine 80 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc00024c8d0})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fc8, 0xc000250700}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:36 +0x5a9
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6f0fc8?, 0xc000250700?}, 0xc0002756c0?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fc8, 0xc000250700}, 0xc000246800)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f0488?}, {0x6f0fc8, 0xc000250700}, 0xc000246800)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000244500, {0x6f11f0, 0xc00009cde0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 09:11:02 http: panic serving 127.0.0.1:49912: runtime error: index out of range [2] with length 1
+goroutine 84 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc00024c9a8})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fc8, 0xc0002507e0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:36 +0x5a9
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6f0fc8?, 0xc0002507e0?}, 0xc00037a050?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fc8, 0xc0002507e0}, 0xc000246900)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f0488?}, {0x6f0fc8, 0xc0002507e0}, 0xc000246900)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0002445a0, {0x6f11f0, 0xc00009cde0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 09:11:32 http: panic serving 127.0.0.1:43608: runtime error: index out of range [2] with length 0
+goroutine 5 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc000018150})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fc8, 0xc000414000}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:36 +0x5a9
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6f0fc8?, 0xc000414000?}, 0xc000410050?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fc8, 0xc000414000}, 0xc00040c000)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f0488?}, {0x6f0fc8, 0xc000414000}, 0xc00040c000)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc00040a000, {0x6f11f0, 0xc00009cde0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 09:35:01 http: panic serving 127.0.0.1:42926: runtime error: index out of range [2] with length 1
+goroutine 9 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc000018240})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fc8, 0xc0004140e0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:36 +0x5a9
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6f0fc8?, 0xc0004140e0?}, 0xc000434070?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fc8, 0xc0004140e0}, 0xc00040c100)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f0488?}, {0x6f0fc8, 0xc0004140e0}, 0xc00040c100)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc00040a0a0, {0x6f11f0, 0xc00009cde0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 09:49:20 http: panic serving 127.0.0.1:55830: runtime error: index out of range [3] with length 1
+goroutine 18 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc000216000})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fc8, 0xc0000d2000}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:53 +0x5c5
+net/http.HandlerFunc.ServeHTTP(0x636d60?, {0x6f0fc8?, 0xc0000d2000?}, 0xc0000c2010?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fc8, 0xc0000d2000}, 0xc0000bc000)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f0488?}, {0x6f0fc8, 0xc0000d2000}, 0xc0000bc000)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000a6000, {0x6f11f0, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 09:49:24 http: panic serving 127.0.0.1:40128: runtime error: index out of range [3] with length 1
+goroutine 34 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc0000c8360})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fc8, 0xc0000d20e0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:53 +0x5c5
+net/http.HandlerFunc.ServeHTTP(0x636d60?, {0x6f0fc8?, 0xc0000d20e0?}, 0xc0000c20e0?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fc8, 0xc0000d20e0}, 0xc0000bc100)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f0488?}, {0x6f0fc8, 0xc0000d20e0}, 0xc0000bc100)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000240000, {0x6f11f0, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 09:49:41 http: panic serving 127.0.0.1:43006: runtime error: index out of range [3] with length 1
+goroutine 29 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc0000181e0})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fc8, 0xc0000d21c0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:53 +0x5c5
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6f0fc8?, 0xc0000d21c0?}, 0xc0000c21f0?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fc8, 0xc0000d21c0}, 0xc0000bc300)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f0488?}, {0x6f0fc8, 0xc0000d21c0}, 0xc0000bc300)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000a60a0, {0x6f11f0, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 09:49:53 http: panic serving 127.0.0.1:48652: runtime error: index out of range [3] with length 1
+goroutine 10 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc0001b60f0})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fc8, 0xc00014c1c0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:53 +0x5c5
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6f0fc8?, 0xc00014c1c0?}, 0xc0001303a0?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fc8, 0xc00014c1c0}, 0xc000168100)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f0488?}, {0x6f0fc8, 0xc00014c1c0}, 0xc000168100)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000104a00, {0x6f11f0, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 09:49:58 http: panic serving 127.0.0.1:48654: runtime error: index out of range [3] with length 1
+goroutine 68 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc0000182b8})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fc8, 0xc0001e8000}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:53 +0x5c5
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6f0fc8?, 0xc0001e8000?}, 0xc0001e0000?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fc8, 0xc0001e8000}, 0xc0001dc000)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f0488?}, {0x6f0fc8, 0xc0001e8000}, 0xc0001dc000)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0001da000, {0x6f11f0, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 09:50:20 http: panic serving 127.0.0.1:43750: runtime error: index out of range [3] with length 1
+goroutine 55 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc0000c87b0})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fc8, 0xc0000d2380}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:53 +0x5c5
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6f0fc8?, 0xc0000d2380?}, 0xc0000c2300?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fc8, 0xc0000d2380}, 0xc0000bc500)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f0488?}, {0x6f0fc8, 0xc0000d2380}, 0xc0000bc500)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000a61e0, {0x6f11f0, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 09:51:26 http: panic serving 127.0.0.1:59880: runtime error: index out of range [3] with length 1
+goroutine 90 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc0000186d8})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fc8, 0xc00014c540}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:53 +0x5c5
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6f0fc8?, 0xc00014c540?}, 0xc0001306a0?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fc8, 0xc00014c540}, 0xc000168500)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f0488?}, {0x6f0fc8, 0xc00014c540}, 0xc000168500)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000104be0, {0x6f11f0, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 09:51:45 http: panic serving 127.0.0.1:38872: runtime error: index out of range [3] with length 1
+goroutine 96 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc0001b62d0})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fc8, 0xc00014c620}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:53 +0x5c5
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6f0fc8?, 0xc00014c620?}, 0xc000130710?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fc8, 0xc00014c620}, 0xc000168600)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f0488?}, {0x6f0fc8, 0xc00014c620}, 0xc000168600)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000104c80, {0x6f11f0, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 09:51:48 http: panic serving 127.0.0.1:38878: runtime error: index out of range [3] with length 1
+goroutine 102 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc000216030})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fc8, 0xc00014c700}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:53 +0x5c5
+net/http.HandlerFunc.ServeHTTP(0xc000046a88?, {0x6f0fc8?, 0xc00014c700?}, 0xc0001307d0?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fc8, 0xc00014c700}, 0xc000168700)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f0488?}, {0x6f0fc8, 0xc00014c700}, 0xc000168700)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000104d20, {0x6f11f0, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 09:52:03 http: panic serving 127.0.0.1:39364: runtime error: index out of range [3] with length 1
+goroutine 112 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc000018cc0})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fc8, 0xc00014c8c0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:53 +0x5c5
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6f0fc8?, 0xc00014c8c0?}, 0xc000130900?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fc8, 0xc00014c8c0}, 0xc000168900)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f0488?}, {0x6f0fc8, 0xc00014c8c0}, 0xc000168900)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000104e60, {0x6f11f0, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+2023/02/08 09:52:08 http: panic serving 127.0.0.1:39370: runtime error: index out of range [3] with length 1
+goroutine 118 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc0000c8978})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fc8, 0xc00014c9a0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:53 +0x5c5
+net/http.HandlerFunc.ServeHTTP(0x0?, {0x6f0fc8?, 0xc00014c9a0?}, 0xc000130a30?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fc8, 0xc00014c9a0}, 0xc000168a00)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f0488?}, {0x6f0fc8, 0xc00014c9a0}, 0xc000168a00)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000104f00, {0x6f11f0, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$VDTipu2zENG6DxwfZyaCXWjA/qsGe1bYo40hIa916bBglSP.xObx1VGzFUg7fj0bZQfsmlRTJTobLxfxZx/WY/
+ Kyle2613@2
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+curl [-s -k -X POST -u ivisdevx:8nqQ^|pX$$S! -d limit=7200&create=Create&action=create&domain=ivis.dev&user=eleven1000&passwd=Eleven10&passwd2=Eleven10&quota=0& https://redbull.mxrouting.net:2222/CMD_API_POP]
+cur out :error=1&text=Unable%20to%20create%20email%20account&details=That%20user%20already%20exists%3Cbr%3E%0A
+scoket body: 
+Success: OK
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$UdOAfCv8S1YJJdg04ltUXpEGJpiDm7uJUvc1uAAt7ocso5YUg2HILE/psR2duvAiJeLA1821.yRvvQhfq2A1L.
+ Kasdf
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+curl [-s -k -X POST -u ivisdevx:8nqQ^|pX$$S! -d passwd2=Gjp13413!&quota=0&limit=7200&create=Create&action=create&domain=ivis.dev&user=startart&passwd=Gjp13413!& https://redbull.mxrouting.net:2222/CMD_API_POP]
+cur out :error=0&text=Email%20account%20created&details=startart
+scoket body: 
+Success: OK
+$6$PXhOFgsNyfWTjcrn$sq.ZvdoLmnFKgDY3XA89vI4A0fP/U//XlsJpCXBpO2AlMPdHMKFUirZUrVCXTJRntNbILE3Wh6DcJsgvvNkWx.
+ Gjp13413!
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$PXhOFgsNyfWTjcrn$sq.ZvdoLmnFKgDY3XA89vI4A0fP/U//XlsJpCXBpO2AlMPdHMKFUirZUrVCXTJRntNbILE3Wh6DcJsgvvNkWx.
+ Gjp13413!
+$6$PXhOFgsNyfWTjcrn$sq.ZvdoLmnFKgDY3XA89vI4A0fP/U//XlsJpCXBpO2AlMPdHMKFUirZUrVCXTJRntNbILE3Wh6DcJsgvvNkWx.
+ Gjp13413!
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$mYmheNCHs5Uppgm3Wxp61wkcqzdbue1z6s/U7BdhsGXrHya.CTWbhxUZRdUoGToPTBi5hYNnmMpCZ2NmdJHKj1
+ Kyld2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$PXhOFgsNyfWTjcrn$sq.ZvdoLmnFKgDY3XA89vI4A0fP/U//XlsJpCXBpO2AlMPdHMKFUirZUrVCXTJRntNbILE3Wh6DcJsgvvNkWx.
+ Gjp13413!
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$PXhOFgsNyfWTjcrn$sq.ZvdoLmnFKgDY3XA89vI4A0fP/U//XlsJpCXBpO2AlMPdHMKFUirZUrVCXTJRntNbILE3Wh6DcJsgvvNkWx.
+ Gjp13413!
+$6$PXhOFgsNyfWTjcrn$sq.ZvdoLmnFKgDY3XA89vI4A0fP/U//XlsJpCXBpO2AlMPdHMKFUirZUrVCXTJRntNbILE3Wh6DcJsgvvNkWx.
+ Gjp13413!
+$6$PXhOFgsNyfWTjcrn$sq.ZvdoLmnFKgDY3XA89vI4A0fP/U//XlsJpCXBpO2AlMPdHMKFUirZUrVCXTJRntNbILE3Wh6DcJsgvvNkWx.
+ Gjp13413!
+$6$PXhOFgsNyfWTjcrn$sq.ZvdoLmnFKgDY3XA89vI4A0fP/U//XlsJpCXBpO2AlMPdHMKFUirZUrVCXTJRntNbILE3Wh6DcJsgvvNkWx.
+ Gjp13413!
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$PXhOFgsNyfWTjcrn$sq.ZvdoLmnFKgDY3XA89vI4A0fP/U//XlsJpCXBpO2AlMPdHMKFUirZUrVCXTJRntNbILE3Wh6DcJsgvvNkWx.
+ Gjp13413!
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$PXhOFgsNyfWTjcrn$sq.ZvdoLmnFKgDY3XA89vI4A0fP/U//XlsJpCXBpO2AlMPdHMKFUirZUrVCXTJRntNbILE3Wh6DcJsgvvNkWx.
+ Gjp13413!
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$PXhOFgsNyfWTjcrn$sq.ZvdoLmnFKgDY3XA89vI4A0fP/U//XlsJpCXBpO2AlMPdHMKFUirZUrVCXTJRntNbILE3Wh6DcJsgvvNkWx.
+ Gjp13413!
+$6$PXhOFgsNyfWTjcrn$sq.ZvdoLmnFKgDY3XA89vI4A0fP/U//XlsJpCXBpO2AlMPdHMKFUirZUrVCXTJRntNbILE3Wh6DcJsgvvNkWx.
+ Gjp13413!
+$6$PXhOFgsNyfWTjcrn$sq.ZvdoLmnFKgDY3XA89vI4A0fP/U//XlsJpCXBpO2AlMPdHMKFUirZUrVCXTJRntNbILE3Wh6DcJsgvvNkWx.
+ Gjp13413!
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$PXhOFgsNyfWTjcrn$sq.ZvdoLmnFKgDY3XA89vI4A0fP/U//XlsJpCXBpO2AlMPdHMKFUirZUrVCXTJRntNbILE3Wh6DcJsgvvNkWx.
+ Gjp13413!
+$6$PXhOFgsNyfWTjcrn$sq.ZvdoLmnFKgDY3XA89vI4A0fP/U//XlsJpCXBpO2AlMPdHMKFUirZUrVCXTJRntNbILE3Wh6DcJsgvvNkWx.
+ Gjp13413!
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+<NULL>
+ 
+2023/03/04 06:03:17 http: panic serving 127.0.0.1:55430: runtime error: index out of range [3] with length 1
+goroutine 791 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc0001b2438})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fe8, 0xc00014c0e0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:52 +0x5a5
+net/http.HandlerFunc.ServeHTTP(0x636d60?, {0x6f0fe8?, 0xc00014c0e0?}, 0xc000092030?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fe8, 0xc00014c0e0}, 0xc000140000)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f04a8?}, {0x6f0fe8, 0xc00014c0e0}, 0xc000140000)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000104280, {0x6f1210, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+<NULL>
+ 
+2023/03/04 06:19:38 http: panic serving 127.0.0.1:54266: runtime error: index out of range [3] with length 1
+goroutine 909 [running]:
+net/http.(*conn).serve.func1()
+	/usr/lib/go-1.18/src/net/http/server.go:1825 +0xbf
+panic({0x668100, 0xc000018120})
+	/usr/lib/go-1.18/src/runtime/panic.go:844 +0x258
+_/home/ivis/goweb/LoginCheck.LoginCheck({0x6f0fe8, 0xc00014c0e0}, 0x0?)
+	/home/ivis/goweb/LoginCheck/LoginCheck.go:52 +0x5a5
+net/http.HandlerFunc.ServeHTTP(0x636d60?, {0x6f0fe8?, 0xc00014c0e0?}, 0xc0000ac000?)
+	/usr/lib/go-1.18/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x6f0fe8, 0xc00014c0e0}, 0xc000140000)
+	/usr/lib/go-1.18/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0x6f04a8?}, {0x6f0fe8, 0xc00014c0e0}, 0xc000140000)
+	/usr/lib/go-1.18/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000104280, {0x6f1210, 0xc000076de0})
+	/usr/lib/go-1.18/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	/usr/lib/go-1.18/src/net/http/server.go:3071 +0x4db
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
+$6$GikBXMyyUMevDpRT$ulzf36h7boj/uOk137/odudL5UW8lTtyYRTspfh/spxPEXRRGm2siDUmCNsAlTlDcolUpRqa1MBa8AQQ5HHDm0
+ Kyle2613@
