@@ -1,4 +1,6 @@
 # IVIS NAS Internal Web Server
+[![ko](https://img.shields.io/badge/lang-ko-red.svg)](https://github.com/picel/CWNU_meal/blob/master/README.md)
+[![ja](https://img.shields.io/badge/lang-ja-blue.svg)](https://github.com/picel/CWNU_meal/blob/master/README.jp.md)
 
 ## 개요
 - IVIS Lab 내부망에서 동작하는 웹서버.
