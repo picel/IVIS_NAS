@@ -1,6 +1,6 @@
 # IVIS NAS Internal Web Server
-[![ko](https://img.shields.io/badge/lang-ko-red.svg)](https://github.com/picel/CWNU_meal/blob/master/README.md)
-[![ja](https://img.shields.io/badge/lang-ja-blue.svg)](https://github.com/picel/CWNU_meal/blob/master/README.jp.md)
+[![ko](https://img.shields.io/badge/lang-ko-red.svg)](https://github.com/picel/IVIS_NAS/blob/main/README.md)
+[![ja](https://img.shields.io/badge/lang-ja-blue.svg)](https://github.com/picel/IVIS_NAS/blob/main/README.jp.md)
 
 ## 開発環境
 - Go
