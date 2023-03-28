@@ -13,12 +13,6 @@ func LoginCheck(w http.ResponseWriter, r *http.Request) {
 	id := r.FormValue("id")
 	pw := r.FormValue("pw")
 
-	// prevent sql injection
-	if strings.Contains(id, "'") || strings.Contains(pw, "'") {
-		http.Error(w, "Login fail", http.StatusUnauthorized)
-		return
-	}
-
 	// if id or pw contains space or sudo command, return error
 	if id == " " || pw == " " || id == "sudo" || pw == "sudo" {
 		// Sign up fail with 401
@@ -27,7 +21,7 @@ func LoginCheck(w http.ResponseWriter, r *http.Request) {
 	}
 
 	// get /etc/shadow by id
-	cmd := exec.Command("sudo", "cat", "/etc/shadow", "|", "grep", "\""+id+"\"")
+	cmd := exec.Command("sudo", "cat", "/etc/shadow")
 	out, _ := cmd.Output()
 
 	var shadow []string
@@ -54,7 +48,7 @@ func LoginCheck(w http.ResponseWriter, r *http.Request) {
 		fmt.Println(err)
 		return
 	}
-	fmt.Println(string(out), pw)
+	// fmt.Println(string(out), pw)
 
 	realPw := strings.Split(string(out), "$")[3]
 	realPw = strings.Split(realPw, "\n")[0]

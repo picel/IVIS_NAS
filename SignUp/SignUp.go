@@ -14,13 +14,6 @@ func SignUpProcess(w http.ResponseWriter, r *http.Request) {
 	id := r.FormValue("id")
 	pw := r.FormValue("pass")
 
-	// sql injection check
-	if id == "" || pw == "" {
-		// Sign up fail with 401
-		http.Error(w, "Sign up fail", http.StatusUnauthorized)
-		return
-	}
-
 	// if id or pw contains space or sudo command, return error
 	if id == " " || pw == " " || id == "sudo" || pw == "sudo" {
 		// Sign up fail with 401
