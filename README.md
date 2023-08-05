@@ -1,11 +1,12 @@
 # IVIS NAS Internal Web Server
-[![ko](https://img.shields.io/badge/lang-ko-red.svg)](https://github.com/picel/IVIS_NAS/blob/main/README.md)
-[![ja](https://img.shields.io/badge/lang-ja-blue.svg)](https://github.com/picel/IVIS_NAS/blob/main/README.jp.md)
 
 ## 개요
 - IVIS Lab 내부망에서 동작하는 웹서버.
 - NAS의 사용자 추가 및 메일 사용자 추가를 위한 웹페이지 제공.
 - Helper 서버에서의 사용자 인증 API 제공.
+
+## 전체 시스템 개략도
+![ivis_eco](https://github.com/picel/IVIS_NAS/assets/30901178/224966f4-e613-4da7-90ec-5175e1b2a07e)
 
 ## 개발환경
 - Go
